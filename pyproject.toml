@@ -3,4 +3,14 @@ name = "design-patterns-python"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "aiofiles>=25.1.0",
+    "aiohttp>=3.13.2",
+    "marimo>=0.18.0",
+    "notebook>=7.5.0",
+    "psycopg[binary]>=3.2.12",
+    "requests>=2.32.5",
+    "snakeviz>=2.2.2",
+    "sqlalchemy>=2.0.44",
+    "sqlmodel>=0.0.27",
+]
